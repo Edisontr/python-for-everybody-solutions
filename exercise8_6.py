@@ -33,7 +33,7 @@ while True:
         print('Invalid input')
         quit()
 
-    my_list.append(input_number)
+    my_list.append(number)
 
 if my_list:
     print('Maximum: ', max(my_list) or None)
